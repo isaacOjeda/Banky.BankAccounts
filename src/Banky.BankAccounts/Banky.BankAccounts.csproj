@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Banky.BankAccounts</RootNamespace>
+    <AssemblyName>Banky.BankAccounts</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Banky.BankAccounts.Application\Banky.BankAccounts.Application.csproj" />
+    <ProjectReference Include="..\Banky.BankAccounts.Infrastructure\Banky.BankAccounts.Infrastructure.csproj" />
+  </ItemGroup>
 
 </Project>
