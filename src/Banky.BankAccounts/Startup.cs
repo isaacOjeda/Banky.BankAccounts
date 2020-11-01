@@ -30,7 +30,7 @@ namespace Banky.BankAccounts
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
+                endpoints.MapGet("/api/test", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
                 });
